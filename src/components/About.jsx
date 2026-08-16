@@ -3,7 +3,7 @@ export default function About() {
     <section className="about-section" id="about">
       <div className="section-content">
         <div className="about-image-wrapper">
-        <img src={`${import.meta.env.BASE_URL}img/about-img.png`} alt="About our coffee shop" />
+        <img  src={`${import.meta.env.BASE_URL}img/about-img.png`}  alt="About our coffee shop" />
         </div>
         <div className="about-details">
           <h2 className="section-title">About Us</h2>
