@@ -14,7 +14,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-image-wrapper">
-          <img src="/img/coffee-hero-section.png" alt="Coffee" className="hero-image" />
+        <img src={`${import.meta.env.BASE_URL}img/coffee-hero-section.png`} alt="Coffee Hero" />
         </div>
       </div>
     </section>
